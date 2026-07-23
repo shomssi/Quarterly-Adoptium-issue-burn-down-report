@@ -35,6 +35,19 @@ For each trigger, evaluate whether the activity falls into any of the following 
 
 **IP and Legal**
 - Adding new images, icons, logos, or artwork → a legal/IP review may be required before merging. The committer should open an EMO legal review issue at https://gitlab.eclipse.org/eclipsefdn/emo-team/emo.
+- 
+  When posting a legal/IP review alert, include a drafted EMO issue ready to copy:
+  **Suggested EMO issue title:** ...
+  **Suggested issue body:**
+  - Project: adoptium/adoptium
+  - Triggering PR/issue: [link]
+  - Reason for review: [e.g. new icon/artwork added]
+  - Requested action: legal review before merge
+  **Suggested labels:** legal-review, ip
+  Do not file this issue automatically — the committer files it manually at
+  https://gitlab.eclipse.org/eclipsefdn/emo-team/emo.
+
+- Adding or updating third-party dependencies or libraries → IP due diligence is required...
 - Adding or updating third-party dependencies or libraries → IP due diligence is required. The committer must vet the licence using the Eclipse Dash License Tool before the content can be included in a release.
 - Adding AI-generated content → must comply with the Generative AI Usage Guidelines for Eclipse Committers. Disclosure is required.
 - Changing the project license or adding content under a new license → requires PMC and EMO approval.
